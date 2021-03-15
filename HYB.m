@@ -1,0 +1,1 @@
+function sigma0 = HYB(agr,fre,ss,wdirr)

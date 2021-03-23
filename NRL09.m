@@ -11,7 +11,7 @@ else
     disp("Polarizition Error")
 end
 
-sigma0 = consta(1)+consta(2)*log10(sin(agrr))+((consta(3)+consta(4)*agrr)*log10(fre))/(1+consta(5)*agrr+consta(6)*ss)+consta(7)*((1+ss)^(1/(2+consta(8)*agrr+consta(9)*ss)))-15;
+sigma0 = consta(1)+consta(2)*log10(sin(agrr))+((consta(3)+consta(4)*agrr)*log10(fre))/(1+consta(5)*agrr+consta(6)*ss)+consta(7)*((1+ss)^(1/(2+consta(8)*agrr+consta(9)*ss)));
 
 
 

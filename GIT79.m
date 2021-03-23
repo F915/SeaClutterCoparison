@@ -4,10 +4,10 @@ function sigma0 = GIT79(ss, agr, fre, wdir,pol)
 agrr = agr *pi/180;
 wdirr = wdir *pi/180;
 c = physconst('LightSpeed');
-lambda = c/fre/0.3048;
+lambda = c/fre;
 
 u = 3.16*(ss^0.8);
-hav = 0.00452*(u^2.5)/0.3048;
+hav = 0.00452*(u^2.5);
 
 sigmaphi = (4.4*lambda+5.5)*agrr*hav/lambda;
 ai = (sigmaphi^4)/(1+sigmaphi^4);
